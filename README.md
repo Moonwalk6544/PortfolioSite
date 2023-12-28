@@ -1,5 +1,5 @@
 <p align="center">
- <img width=200px height=200px src="https://i.imgur.com/lCpwnMm.png" alt="Project
+ <img width=200px height=200px src="https://i.imgur.com/lCpwnMm.png" alt="Project"></img>
 </p>
 
 <h3 align="center">Morton portfolio website</h3>
