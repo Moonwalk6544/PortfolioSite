@@ -1,14 +1,13 @@
 <p align="center">
-  <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+
 </p>
 
-<h3 align="center">Project Title</h3>
+<h3 align="center">Morton portfolio website</h3>
 
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
+[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/Moonwalk6544/PortfolioSite/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
@@ -16,7 +15,7 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> This is the beginning of a project for my portfolio
     <br> 
 </p>
 
@@ -24,17 +23,11 @@
 
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Deployment](#deployment)
 - [Usage](#usage)
 - [Built Using](#built_using)
 - [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
 
-## 🧐 About <a name = "about"></a>
-
-Write about 1-2 paragraphs describing the purpose of your project.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -42,73 +35,42 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
-
-```
-Give examples
-```
+This server will be run off my other project which is a lightweight backend built in rust. They are made to run in tandem off of a linux server / machine.
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
+First install the sister project, Lightweigh Rust Backend from my page, you can also do so with this to set up the environment
 
 ```
-Give the example
+git clone https://github.com/Moonwalk6544/LightRustBackend.git
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+cd LightRustBackend
+cargo run
+
 ```
-
-And repeat
+Alternatively if you don't like piping curled code into SH
 
 ```
-until finished
+git clone https://github.com/Moonwalk6544/LightRustBackend.git
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs > rustup
+chmod +x rustup
+//view code here, execute and follow initial instructions
+
 ```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
 ## 🔧 Running the tests <a name = "tests"></a>
 
-Explain how to run the automated tests for this system.
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+#TODO: Insert test documentation 
 
 ## 🎈 Usage <a name="usage"></a>
 
-Add notes about how to use the system.
-
-## 🚀 Deployment <a name = "deployment"></a>
-
-Add additional notes about how to deploy this on a live system.
-
+Used in tandem with [Dev website](https://github.com/Moonwalk6544/PortfolioSite) or with a website of your choosing
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [Rust](https://rustup.rs/) 
+
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+- [@Moonwalk](https://github.com/Moonwalk6544) - Idea & Initial work
 
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
